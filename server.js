@@ -12,7 +12,7 @@ const indexRouter = require('./ROUTES/index')
 
 
 app.set('view engine', 'ejs')
-app.set('views', __dirname + '/views')
+app.set('views', __dirname + '/VIEWS')
 app.set('layout', 'layouts/layout')
 app.use(expressLayouts)
 app.use(express.static('public'))
